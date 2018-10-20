@@ -13,6 +13,7 @@ The authentication uses JWT tokens.
 # Installation
 
 for Server Side:
+1. cd to the project's root directory and run ```composer install``` in terminal
 1. create a database and open .env file and edit it according to your DB settings (Note: if you can't find .env file then rename .env.example file to .env and use it)
 2. run the migration with this command: ```php artisan migrate```
 3. seed the table: i had provided you two ways to seed the DB (the explanation has commented in the codes)
